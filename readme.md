@@ -14,7 +14,7 @@ Tests located in [test](./test) directory.
 npm install --global yarn
 ```
 
-3. Install dependancies.
+3. Install dependencies.
 
 ```bash
 yarn
