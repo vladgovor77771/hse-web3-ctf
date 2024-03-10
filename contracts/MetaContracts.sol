@@ -13,7 +13,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract MetaFactory {
     mapping(address => address) _implementations;
     mapping(uint => address) public proxys;
-    bool flag;
+    // bool flag;
 
     function deploy(uint salt, bytes calldata bytecode) public {
         bytes memory implInitCode = bytecode;
